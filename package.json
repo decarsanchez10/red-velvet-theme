@@ -1,18 +1,26 @@
 {
   "name": "red-velvet-theme",
-  "displayName": "Velvet Noir",
-  "license": "MIT",
-    "description": "A rich, romantic dark theme built around a hand-picked velvet color palette.",
-  "publisher": "raced-dev",
-  "version": "1.0.0",
-  "engines": { "vscode": "^1.0.0" },
-  "icon": "red-velvet-icon.png",
-  "categories": ["Themes"],
+  "displayName": "Red Velvet Theme",
+  "description": "A rich, romantic dark theme built around a hand-picked velvet color palette — perfect for developers who want their editor to feel as luxurious as it looks.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.120.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/decarsanchez10/red-velvet-theme.git"
+},
   "contributes": {
-    "themes": [{
-      "label": "Velvet Noir",
-      "uiTheme": "vs-dark",
-      "path": "./red-velvet-theme/red-velvet-color-theme.json"
-    }]
+    "themes": [
+      {
+        "label": "Red Velvet",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Red Velvet-color-theme.json"
+      }
+    ]
   }
+
 }
